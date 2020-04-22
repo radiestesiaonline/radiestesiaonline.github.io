@@ -9,8 +9,9 @@ const consulta = urlParams.get("consulta"); // consultas/eduardo/21-04-2020
 // https://radiestesiaonline.github.io/resultado.html?radiestesista=edusantana&repo=consultas&consulta=consultas/eduardo/21-04-2020
 
 console.log("Atualizando cores a partir da consulta");
+console.log(radiestesista);
+console.log(repo);
 console.log(consulta);
-console.log(cliente);
 
 $.getJSON( "https://"+radiestesista+".github.io/"+repo+"/"+consulta+".json", function( data ) {
   var items = [];
