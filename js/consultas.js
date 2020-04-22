@@ -42,11 +42,14 @@ function processData(csvData){
       var key = linha[0];
       var val = linha[1];
       if (val == 1){
+        var corDaImagem ="darkgreen";
+        var classe ="equilibrio";
+      }else if  (val == 2){
         var corDaImagem ="red";
         var classe ="desequilibrio";
       }else{
-        var corDaImagem ="darkgreen";
-        var classe ="equilibrio";
+        var corDaImagem ="gray";
+        var classe ="naoaferido";
       }
 
       // Texto
