@@ -52,8 +52,7 @@ function processData(csvData){
       // Texto
       $( "." + key ).addClass(classe);
       // SVG
-      //$('#' + key +' >tspan').css('fill',corDaImagem);
-      $('#' + key + " *").css('fill',corDaImagem); // chakras
+      $('#' + key + ', #' + key + " *").css('fill',corDaImagem);
     });
 
   })
