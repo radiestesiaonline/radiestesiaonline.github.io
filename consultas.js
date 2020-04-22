@@ -35,9 +35,11 @@ function processData(csvData){
   })
   .fromString(csvData)
   .then((csvRow)=>{
-    console.log(csvRow); // => [["1","2","3"], ["4","5","6"], ["7","8","9"]]
+    console.log("Processando CSV"); // => [["1","2","3"], ["4","5","6"], ["7","8","9"]]
 
     $.each( csvRow, function( index, value ) {
+      console.log(value);
+      /*
       var linha = value;
       var key = linha[0];
       var val = linha[1];
@@ -54,6 +56,7 @@ function processData(csvData){
       // SVG
       $('#' + key +' >tspan').css('fill',corDaImagem);
       $('#' + key).css('fill',corDaImagem); // chakras
+      */
     });
 
   })
