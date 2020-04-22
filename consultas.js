@@ -35,9 +35,10 @@ function processData(csvData){
   })
   .fromString(csvData)
   .then((csvRow)=>{
-    console.log(csvRow) // => [["1","2","3"], ["4","5","6"], ["7","8","9"]]
+    console.log(csvRow); // => [["1","2","3"], ["4","5","6"], ["7","8","9"]]
 
-    $.each( csvRow, function( linha ) {
+    $.each( csvRow, function( index, value ) {
+      var linha = value;
       var key = linha[0];
       var val = linha[1];
       if (val == 1){
@@ -57,10 +58,3 @@ function processData(csvData){
 
   })
 }
-
-
-
-$.getJSON( "https://"+radiestesista+".github.io/"+repo+"/"+consulta+".json", function( data ) {
-  var items = [];
-
-});
