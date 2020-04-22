@@ -36,5 +36,31 @@ function processData(csvData){
   .fromString(csvData)
   .then((csvRow)=>{
     console.log(csvRow) // => [["1","2","3"], ["4","5","6"], ["7","8","9"]]
+
+    $.each( csvRow, function( linha ) {
+      var key = linha[0];
+      var val = linha[1];
+      if (val == 1){
+        var corDaImagem ="red";
+        var classe ="desequilibrio";
+      }else{
+        var corDaImagem ="blue";
+        var classe ="equilibrio";
+      }
+
+      // Texto
+      $( "." + key ).addClass(classe);
+      // SVG
+      $('#' + key +' >tspan').css('fill',corDaImagem);
+      $('#' + key).css('fill',corDaImagem); // chakras
+    });
+
   })
 }
+
+
+
+$.getJSON( "https://"+radiestesista+".github.io/"+repo+"/"+consulta+".json", function( data ) {
+  var items = [];
+
+});
