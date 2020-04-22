@@ -45,7 +45,7 @@ function processData(csvData){
         var corDaImagem ="red";
         var classe ="desequilibrio";
       }else{
-        var corDaImagem ="blue";
+        var corDaImagem ="darkgreen";
         var classe ="equilibrio";
       }
 
