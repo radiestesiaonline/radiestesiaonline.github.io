@@ -13,21 +13,25 @@ console.log(radiestesista);
 console.log(repo);
 console.log(consulta);
 
-$.getJSON( "https://"+radiestesista+".github.io/"+repo+"/"+consulta+".json", function( data ) {
-  var items = [];
-  $.each( data, function( key, val ) {
-    if (val == 1){
-      var corDaImagem ="red";
-      var classe ="desequilibrio";
-    }else{
-      var corDaImagem ="blue";
-      var classe ="equilibrio";
-    }
+const csvFileURL="https://"+radiestesista+".github.io/"+repo+"/"+consulta+".csv"
 
-    // Texto
-    $( "." + key ).addClass(classe);
-    // SVG
-    $('#' + key +' >tspan').css('fill',corDaImagem);
-    $('#' + key).css('fill',corDaImagem); // chakras
-  });
+$(document).ready(function() {
+    $.ajax({
+        type: "GET",
+        url: csvFileURL,
+        dataType: "text",
+        success: function(data) {processData(data);}
+     });
 });
+
+function processData(csvData){
+  const csv=require('csvtojson')
+  csv({
+    noheader:true,
+    output: "csv"
+  })
+  .fromString(csvData)
+  .then((csvRow)=>{
+    console.log(csvRow) // => [["1","2","3"], ["4","5","6"], ["7","8","9"]]
+  })
+}
