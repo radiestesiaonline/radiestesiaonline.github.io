@@ -1,0 +1,39 @@
+{
+  "telurica":1,
+  "provocada":1,
+  "pessoas":1,
+  "profissional":1,
+  "familiar":1,
+  "sff":1,
+  "outra_externa":1,
+  "relacionamento":1,
+
+  "medo":1,
+  "inseguranca":1,
+  "culpa":1,
+  "ciumes":1,
+  "violencia":1,
+  "ideias":1,
+  "lembrancas":1,
+  "outra_interna":1,
+
+  "coronario":1,
+  "frontal":1,
+  "laringeo":1,
+  "cardiaco":1,
+  "plexosolar":1,
+  "sacro":1,
+  "basico":1,
+
+  "boca":1,
+  "faringe":1,
+  "esofago":1,
+  "estomago":1,
+  "pancreas":1,
+  "figado":1,
+  "vesicula":1,
+  "intestino_delgado":1,
+  "intestino_grosso":1,
+  "apendice":1
+
+}

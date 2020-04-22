@@ -1,0 +1,15 @@
+{
+  "name": "luciano",
+  "version": "1.0.0",
+  "description": "Consultas",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo de Santana Medeiros Alexandre",
+  "license": "ISC"
+}
