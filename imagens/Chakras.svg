@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="638.39264"
@@ -17,7 +18,7 @@
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="Chakras.svg">
   <title
-     id="title5749">Chakras in human body</title>
+     id="title5749">Estado dos chacras durante a consulta</title>
   <defs
      id="defs4">
     <marker
@@ -42,7 +43,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2665853"
-     inkscape:cx="278.95414"
+     inkscape:cx="296.71844"
      inkscape:cy="218.03518"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -59,11 +60,11 @@
      inkscape:snap-nodes="true"
      inkscape:snap-global="false"
      showguides="false"
-     inkscape:window-width="927"
-     inkscape:window-height="1023"
-     inkscape:window-x="993"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
      inkscape:window-y="27"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -114,12 +115,17 @@
      id="layer2"
      inkscape:label="Chakras"
      transform="translate(119.7985,12.75149)">
-    <circle
-       style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="coronario"
-       cx="162.05357"
-       cy="35.553574"
-       r="40.982143" />
+    <a
+       id="link_chacra1"
+       xlink:href="https://pt.wikipedia.org/wiki/Chacra#Coron%C3%A1rio"
+       xlink:title="Chacra Coronário">
+      <circle
+         r="40.982143"
+         cy="35.553574"
+         cx="162.05357"
+         id="coronario"
+         style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </a>
     <path
        sodipodi:nodetypes="cssssssssssssssssssssssssssssssccccssssssssssssssssssssssssssssssc"
        inkscape:connector-curvature="0"
@@ -150,86 +156,116 @@
        id="path4206"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssccssssssszsssssssccsszs" />
-    <path
-       style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 159.79297,52.569755 a 18.498419,18.498419 0 0 0 -17.95508,14.146484 18.498419,18.498419 0 0 0 17.95508,14.138672 18.498419,18.498419 0 0 0 1.86914,-0.111328 14.142136,14.142136 0 0 0 1.66601,0.111328 14.142136,14.142136 0 0 0 1.26758,-0.06836 18.498419,18.498419 0 0 0 1.38477,0.06836 18.498419,18.498419 0 0 0 17.95703,-14.144531 18.498419,18.498419 0 0 0 -17.95703,-14.140625 18.498419,18.498419 0 0 0 -1.23047,0.07227 14.142136,14.142136 0 0 0 -1.42188,-0.07227 14.142136,14.142136 0 0 0 -1.7246,0.123047 18.498419,18.498419 0 0 0 -1.81055,-0.123047 z"
-       id="frontal"
-       inkscape:connector-curvature="0" />
-    <path
-       sodipodi:type="star"
-       style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="laringeo"
-       sodipodi:sides="16"
-       sodipodi:cx="162.76083"
-       sodipodi:cy="133.19637"
-       sodipodi:r1="20.886751"
-       sodipodi:r2="18.088457"
-       sodipodi:arg1="0.78539816"
-       sodipodi:arg2="0.9817477"
-       inkscape:flatsided="false"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="m 177.53,147.96553 -4.71976,0.27084 -2.05639,4.25684 -4.46413,-1.55595 -3.52889,3.14586 -3.52888,-3.14586 -4.46413,1.55595 -2.05639,-4.25684 -4.71976,-0.27084 -0.27084,-4.71976 -4.25684,-2.05639 1.55595,-4.46413 -3.14586,-3.52888 3.14586,-3.52889 -1.55595,-4.46413 4.25684,-2.05639 0.27084,-4.71976 4.71976,-0.27084 2.05639,-4.25684 4.46413,1.55595 3.52888,-3.14586 3.52889,3.14586 4.46413,-1.55595 2.05639,4.25684 4.71976,0.27084 0.27084,4.71976 4.25684,2.05639 -1.55595,4.46413 3.14585,3.52889 -3.14585,3.52888 1.55595,4.46413 -4.25684,2.05639 z" />
-    <path
-       d="m 177.53,196.95421 -5.72494,0.8959 -3.63834,4.50999 -5.40589,-2.0866 -5.40589,2.0866 -3.63833,-4.50999 -5.72494,-0.8959 -0.8959,-5.72494 -4.50999,-3.63834 2.0866,-5.40589 -2.0866,-5.40589 4.50999,-3.63833 0.8959,-5.72494 5.72493,-0.8959 3.63834,-4.50999 5.40589,2.0866 5.40589,-2.0866 3.63834,4.50999 5.72494,0.8959 0.8959,5.72493 4.50999,3.63834 -2.0866,5.40589 2.0866,5.40589 -4.50999,3.63834 z"
-       inkscape:randomized="0"
-       inkscape:rounded="0"
-       inkscape:flatsided="false"
-       sodipodi:arg2="1.0471975"
-       sodipodi:arg1="0.78539816"
-       sodipodi:r2="18.088457"
-       sodipodi:r1="20.886751"
-       sodipodi:cy="182.18504"
-       sodipodi:cx="162.76083"
-       sodipodi:sides="12"
-       id="cardiaco"
-       style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       sodipodi:type="star" />
-    <path
-       sodipodi:type="star"
-       style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="plexosolar"
-       sodipodi:sides="10"
-       sodipodi:cx="162.76083"
-       sodipodi:cy="232.06133"
-       sodipodi:r1="20.886751"
-       sodipodi:r2="18.088457"
-       sodipodi:arg1="0.78539816"
-       sodipodi:arg2="1.0995574"
-       inkscape:flatsided="false"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="m 177.53,246.83049 -6.55718,1.34777 -4.94458,4.51267 -6.09706,-2.76385 -6.65273,0.74448 -3.30809,-5.81976 -5.81976,-3.30809 0.74448,-6.65273 -2.76385,-6.09706 4.51267,-4.94458 1.34777,-6.55718 6.55718,-1.34777 4.94458,-4.51267 6.09706,2.76385 6.65273,-0.74448 3.30808,5.81976 5.81977,3.30809 -0.74448,6.65273 2.76384,6.09706 -4.51266,4.94458 z" />
-    <path
-       d="m 173.99446,299.1059 -11.18615,-4.4125 -11.15781,4.48368 -1.77174,-11.89374 -9.46189,-7.42111 9.41441,-7.48124 1.69593,-11.90479 11.18615,4.4125 11.15781,-4.48369 1.77174,11.89375 9.46189,7.4211 -9.41442,7.48124 z"
-       inkscape:randomized="0"
-       inkscape:rounded="0"
-       inkscape:flatsided="false"
-       sodipodi:arg2="1.5676105"
-       sodipodi:arg1="1.0440118"
-       sodipodi:r2="14.902425"
-       sodipodi:r1="22.344078"
-       sodipodi:cy="279.79105"
-       sodipodi:cx="162.76083"
-       sodipodi:sides="6"
-       id="sacro"
-       style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       sodipodi:type="star" />
-    <path
-       sodipodi:type="star"
-       style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="basico"
-       sodipodi:sides="4"
-       sodipodi:cx="162.76083"
-       sodipodi:cy="328.27835"
-       sodipodi:r1="23.326361"
-       sodipodi:r2="13.551372"
-       sodipodi:arg1="0.73561787"
-       sodipodi:arg2="1.5210161"
-       inkscape:flatsided="false"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="m 180.05538,343.9314 -16.62023,-2.11846 -16.32736,3.75995 2.11846,-16.62023 -3.75996,-16.32736 16.62023,2.11847 16.32736,-3.75996 -2.11846,16.62023 z" />
+    <a
+       id="link_chacra2"
+       xlink:href="https://pt.wikipedia.org/wiki/Chacra#Frontal"
+       xlink:title="Chacra Frontal">
+      <path
+         inkscape:connector-curvature="0"
+         id="frontal"
+         d="m 159.79297,52.569755 a 18.498419,18.498419 0 0 0 -17.95508,14.146484 18.498419,18.498419 0 0 0 17.95508,14.138672 18.498419,18.498419 0 0 0 1.86914,-0.111328 14.142136,14.142136 0 0 0 1.66601,0.111328 14.142136,14.142136 0 0 0 1.26758,-0.06836 18.498419,18.498419 0 0 0 1.38477,0.06836 18.498419,18.498419 0 0 0 17.95703,-14.144531 18.498419,18.498419 0 0 0 -17.95703,-14.140625 18.498419,18.498419 0 0 0 -1.23047,0.07227 14.142136,14.142136 0 0 0 -1.42188,-0.07227 14.142136,14.142136 0 0 0 -1.7246,0.123047 18.498419,18.498419 0 0 0 -1.81055,-0.123047 z"
+         style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </a>
+    <a
+       id="link_chacra3"
+       xlink:href="https://pt.wikipedia.org/wiki/Chacra#Lar%C3%ADngeo"
+       xlink:title="Chacra Laríngeo">
+      <path
+         d="m 177.53,147.96553 -4.71976,0.27084 -2.05639,4.25684 -4.46413,-1.55595 -3.52889,3.14586 -3.52888,-3.14586 -4.46413,1.55595 -2.05639,-4.25684 -4.71976,-0.27084 -0.27084,-4.71976 -4.25684,-2.05639 1.55595,-4.46413 -3.14586,-3.52888 3.14586,-3.52889 -1.55595,-4.46413 4.25684,-2.05639 0.27084,-4.71976 4.71976,-0.27084 2.05639,-4.25684 4.46413,1.55595 3.52888,-3.14586 3.52889,3.14586 4.46413,-1.55595 2.05639,4.25684 4.71976,0.27084 0.27084,4.71976 4.25684,2.05639 -1.55595,4.46413 3.14585,3.52889 -3.14585,3.52888 1.55595,4.46413 -4.25684,2.05639 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="0.9817477"
+         sodipodi:arg1="0.78539816"
+         sodipodi:r2="18.088457"
+         sodipodi:r1="20.886751"
+         sodipodi:cy="133.19637"
+         sodipodi:cx="162.76083"
+         sodipodi:sides="16"
+         id="laringeo"
+         style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+    </a>
+    <a
+       id="link_chacra4"
+       xlink:href="https://pt.wikipedia.org/wiki/Chacra#Card%C3%ADaco"
+       xlink:title="Chacra Cardíaco">
+      <path
+         sodipodi:type="star"
+         style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="cardiaco"
+         sodipodi:sides="12"
+         sodipodi:cx="162.76083"
+         sodipodi:cy="182.18504"
+         sodipodi:r1="20.886751"
+         sodipodi:r2="18.088457"
+         sodipodi:arg1="0.78539816"
+         sodipodi:arg2="1.0471975"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 177.53,196.95421 -5.72494,0.8959 -3.63834,4.50999 -5.40589,-2.0866 -5.40589,2.0866 -3.63833,-4.50999 -5.72494,-0.8959 -0.8959,-5.72494 -4.50999,-3.63834 2.0866,-5.40589 -2.0866,-5.40589 4.50999,-3.63833 0.8959,-5.72494 5.72493,-0.8959 3.63834,-4.50999 5.40589,2.0866 5.40589,-2.0866 3.63834,4.50999 5.72494,0.8959 0.8959,5.72493 4.50999,3.63834 -2.0866,5.40589 2.0866,5.40589 -4.50999,3.63834 z" />
+    </a>
+    <a
+       id="link_chacra5"
+       xlink:href="https://pt.wikipedia.org/wiki/Chacra#Umbilical_(G%C3%A1strico_ou_Plexo_Solar)"
+       xlink:title="Chacra Plexo Solar">
+      <path
+         d="m 177.53,246.83049 -6.55718,1.34777 -4.94458,4.51267 -6.09706,-2.76385 -6.65273,0.74448 -3.30809,-5.81976 -5.81976,-3.30809 0.74448,-6.65273 -2.76385,-6.09706 4.51267,-4.94458 1.34777,-6.55718 6.55718,-1.34777 4.94458,-4.51267 6.09706,2.76385 6.65273,-0.74448 3.30808,5.81976 5.81977,3.30809 -0.74448,6.65273 2.76384,6.09706 -4.51266,4.94458 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.0995574"
+         sodipodi:arg1="0.78539816"
+         sodipodi:r2="18.088457"
+         sodipodi:r1="20.886751"
+         sodipodi:cy="232.06133"
+         sodipodi:cx="162.76083"
+         sodipodi:sides="10"
+         id="plexosolar"
+         style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+    </a>
+    <a
+       id="link_chacra6"
+       xlink:href="https://pt.wikipedia.org/wiki/Chacra#Espl%C3%AAnico"
+       xlink:title="Chacra Sacro">
+      <path
+         sodipodi:type="star"
+         style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="sacro"
+         sodipodi:sides="6"
+         sodipodi:cx="162.76083"
+         sodipodi:cy="279.79105"
+         sodipodi:r1="22.344078"
+         sodipodi:r2="14.902425"
+         sodipodi:arg1="1.0440118"
+         sodipodi:arg2="1.5676105"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 173.99446,299.1059 -11.18615,-4.4125 -11.15781,4.48368 -1.77174,-11.89374 -9.46189,-7.42111 9.41441,-7.48124 1.69593,-11.90479 11.18615,4.4125 11.15781,-4.48369 1.77174,11.89375 9.46189,7.4211 -9.41442,7.48124 z" />
+    </a>
+    <a
+       id="link_chacra7"
+       xlink:href="https://pt.wikipedia.org/wiki/Chacra#B%C3%A1sico_(gen%C3%A9sico)"
+       xlink:title="Chacra Básico">
+      <path
+         d="m 180.05538,343.9314 -16.62023,-2.11846 -16.32736,3.75995 2.11846,-16.62023 -3.75996,-16.32736 16.62023,2.11847 16.32736,-3.75996 -2.11846,16.62023 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.5210161"
+         sodipodi:arg1="0.73561787"
+         sodipodi:r2="13.551372"
+         sodipodi:r1="23.326361"
+         sodipodi:cy="328.27835"
+         sodipodi:cx="162.76083"
+         sodipodi:sides="4"
+         id="basico"
+         style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+    </a>
     <g
        aria-label="Coronário"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
