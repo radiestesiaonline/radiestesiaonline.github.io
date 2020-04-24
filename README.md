@@ -2,6 +2,15 @@
 
 Site para radiestesistas publicar resultados de suas consultas.
 
+## Para que?
+
+- Para demonstrar profissionalismo
+- Para valorizar a radiestesia
+- Para expressar as intenções da seção radiônica
+- Para fornecer feedback mais preciso aos nossos clientes
+- Para comunicar o resultado por WhatsApp ou E-mail
+- Para manter registro histórico das consultas
+
 ## Exemplos de resultados
 
 - [Consulta masculina](https://radiestesiaonline.github.io/consulta.html?r=edusantana&c=nome-do-cliente-2020-04-01)
