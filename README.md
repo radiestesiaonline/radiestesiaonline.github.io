@@ -2,7 +2,7 @@
 
 Site para radiestesistas publicar resultados de suas consultas.
 
-# Exemplos de resultados
+## Exemplos de resultados
 
 - [Consulta masculina](https://radiestesiaonline.github.io/consulta.html?r=edusantana&c=nome-do-cliente-2020-04-01)
 - [Consulta feminina](https://radiestesiaonline.github.io/consulta.html?r=edusantana&c=nome-da-cliente-2020-04-01)
@@ -16,14 +16,14 @@ Site para radiestesistas publicar resultados de suas consultas.
 - Utilização de planilha para preenchimento da consulta
 - Responsivo (fica bem no celular e no computador)
 
-# Preço
-
-Este sistema é (e sempre será) **totalmente gratuito**.
-
 # Consultado os resultados publicados
 
 A [página de consulta](https://radiestesiaonline.github.io/consulta.html) deve ser acessada utilizando os parâmetros apropriados para encontrar os resultados publicados.  
 
+# Preço
+
+Este sistema é (e sempre será) **totalmente gratuito**.
+
 # Contato
 
-Para criar aprender como publicar suas consultas entre em contato por email: eduardo.ufpb@gmail.com ou por WhatsApp: 83.98108-1977.
+Para aprender como publicar suas consultas entre em contato por email: eduardo.ufpb@gmail.com ou por WhatsApp: 83.98108-1977.
