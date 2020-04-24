@@ -27,7 +27,8 @@ $(document).ready(function() {
 function processData(csvData){
   csv({
     noheader:false,
-    headers: ['tipo','nome','status','link']
+    headers: ['tipo','nome','status','link'],
+    delimiter: ';'
   })
   .fromString(csvData)
   .then((jsonData)=>{
